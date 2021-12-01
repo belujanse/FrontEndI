@@ -1,0 +1,133 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.cabecera {
+
+    background-color: white;
+    justify-content: space-between;
+    padding:1em;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Be Vietnam Pro',sans-serif; 
+    flex-flow: row nowrap;
+    word-spacing: 1.4em;
+
+
+}
+
+.primerboton {
+    background: #F3603B;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 134px;
+    height: 44px;
+    left: 0px;
+    top: 325px;
+
+
+
+    border: none;
+}
+
+.informacionprincipal {
+    justify-content: space-between;
+    padding:1em;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Be Vietnam Pro',sans-serif; 
+    flex-flow: row nowrap;
+}
+.informacion1 {
+    padding: 10em;
+}
+
+.informacion2 {
+    padding: 5em;
+}
+
+.boton2 {
+    background: #F3603B;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    left: 0px;
+    top: 325px;
+    color: white;
+    border: none;
+}
+
+.diferencia {
+    justify-content: space-between;
+    padding:1em;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Be Vietnam Pro',sans-serif; 
+    flex-flow: row nowrap;
+}
+
+.diferencia1 {
+    align-items: center;
+    padding: 5em;
+}
+
+.diferencia2 {
+    padding: 5em;
+    justify-content: 
+    display: inline-block;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.botonnumerado {
+    position: static;
+    width: 69px;
+    height: 43px;
+    right: 484px;
+    top: 0px;
+    background: #F3603B;
+    border-radius: 30px;
+    border: none;
+    color:white;
+
+}
+
+.avatar1 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.avatar2 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.avatar3 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
