@@ -1,3 +1,5 @@
+/*#region Desktop*/
+
 
 *{
     box-sizing: border-box;
@@ -67,6 +69,7 @@ body {
     padding: 10em;
 }
 
+
 .informacion2 {
     padding: 5em;
 }
@@ -86,10 +89,11 @@ body {
 .diferencia {
     justify-content: space-between;
     padding:1em;
-    display: flex;
+    display:flex;
     flex-direction: row;
     font-family: 'Be Vietnam Pro',sans-serif; 
     flex-flow: row nowrap;
+    line-height: 2;
 }
 
 .diferencia1 {
@@ -268,265 +272,270 @@ color: white;
     line-height: 2;
 }
 
+/*#endregion RegionName*/
 
 
-/* ESTO FUNCIONA Y ES PARA CELULARES*/
+/*#region Mobile*/
 @media screen and (max-width: 375px) {
 
-.menu {
-    display: none;
-
-}
-
-
-
-.hamburguesa {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-flow: row nowrap;
-    align-items: center;
-
-
-}
-
-.cabecera {
-
-    background-color: white;
-    justify-content: space-between;
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Be Vietnam Pro',sans-serif; 
-    flex-flow: row nowrap;
-    word-spacing: 1.4em;
-    margin: 2%;
-    align-items: center;
-
-
-}
-
-.primerboton {
-
-    display: none;
-
-}
-
-
-
-.informacionprincipal {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-
-}
-.informacion1 {
-    padding: 0;
-    text-align: center;
-}
-
-.informacion2 {
-    padding: 0%;
-    top: 0px;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
+    .menu {
+        display: none;
     
-}
-
-.boton2 {
-    background: #F3603B;
-    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
-    border-radius: 50px;
-    width: 134px;
-    height: 44px;
-    left: 0px;
-    top: 325px;
-    color: white;
-    border: none;
-}
-
-.diferencia {
-    justify-content: space-between;
-    padding:0;
-    display: flex;
-    flex-direction: row;
-    font-family: 'Be Vietnam Pro',sans-serif; 
-    flex-flow: row nowrap;
-    text-align: center;
-    flex-direction: column;
-}
-
-.diferencia1 {
-    align-items: center;
-    padding: 5em;
-    margin: 5%;
-}
-
-.diferencia2 {
-    display:inline-block;
-    padding: 5em;
-    margin-top: 5%;
-    gap: 25px;
-    font-size: medium;
-    text-align: left;
-}
-
-dt {
-    font-weight: bold;
-}
-
-.botonnumerado {
-    position: static;
-    width: 69px;
-    height: 43px;
-    right: 484px;
-    top: 0px;
-    background: #F3603B;
-    border-radius: 30px;
-    border: none;
-    color:white;
-}
-
-.loquedicen {
-    text-align: center;
-}
-
-
-
-.avatarContainer{
-    width: 100%;
-    display:flex;   
-    flex-direction: column; 
-}
-
-
-.espacionaranja {
-width: 100%;
-height: 224px;
-left: 0px;
-top: 0px;
-background-color: #F3613C;
-display:flex;
-justify-content: space-between;
-align-items: center;
-}
-
-.textocajanaranja {
-    width: 438px;
-    height: 96px;
-    left: 0px;
-    top: 0px;
-    margin-left: 165px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 48px;
-    align-items: center;
-    letter-spacing: -0.005em;
-    color: #FFFFFF;
-
-
-
-}
-
-.botonblanco {
-    width: 134px;
-    height: 44px;
-    left: 976px;
-    top: 26px;
-    margin-right: 10%;
-
-    background: #FFFFFF;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    border: none;
-    color: orangered;
-}
-
-.piedepagina {
-    width: 100%;
-    height: 247px;
-    left: 0px;
-
-    background: #1E1E26;
-    color: white;
-    height: 100%;
-}
-
-
-.lista1 {
-    display: inline-block;
-    padding: 20px;
-    width: 20%;
-    list-style: none;
-}
-.lista2 {
-    display: inline-block;
-    padding:20px;
-    width: 20%;
-    list-style: none;
-}
-.logoyredes {
-    display: inline-block;
-    padding:20px;
-    width: 20%;
-    align-items: center;
-
-}
-
-.ultimo {
-    background-color: white;
-    color: black;
-
-}
-
-
-.botonGO {
-
-    background: #F3603B;
-    border-radius: 50px;
-    margin: 30px 0px 50px 10px;
-    color: white;
-    border: solid 1px;
-
+    }
     
-}
-.piedepagina {
-    padding: 1%;
+    
+    
+    .hamburguesa {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-flow: row nowrap;
+        align-items: center;
+    
+    
+    }
+    
+    .cabecera {
+    
+        background-color: white;
+        justify-content: space-between;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Be Vietnam Pro',sans-serif; 
+        flex-flow: row nowrap;
+        word-spacing: 1.4em;
+        margin: 2%;
+        align-items: center;
+    
+    
+    }
+    
+    .primerboton {
+    
+        display: none;
+    
+    }
+    
+    .graficos {
+        width: 330px;
+    }
+    
+    
+    
+    .informacionprincipal {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    
+    }
+    .informacion1 {
+        padding: 0;
+        text-align: center;
+        line-height: 2;
+    }
+    
+    .informacion2 {
+        padding: 0%;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        
+    }
+    
+    .boton2 {
+        background: #F3603B;
+        box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+        border-radius: 50px;
+        width: 134px;
+        height: 44px;
+        left: 0px;
+        top: 325px;
+        color: white;
+        border: none;
+        margin-top: 50px;
+    }
+    
+    .diferencia {
+        justify-content: space-between;
+        padding:0;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Be Vietnam Pro',sans-serif; 
+        flex-flow: row nowrap;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .diferencia1 {
+        align-items: center;
+        padding: 5em;
+        margin: 5%;
+    }
+    
+    .diferencia2 {
+        display:inline-block;
+        padding: 5em;
+        margin-top: 5%;
+        gap: 25px;
+        font-size: medium;
+        text-align: left;
+    }
+    
+    dt {
+        font-weight: bold;
+    }
+    
+    .botonnumerado {
+        position: static;
+        width: 69px;
+        height: 43px;
+        right: 484px;
+        top: 0px;
+        background: #F3603B;
+        border-radius: 30px;
+        border: none;
+        color:white;
+    }
+    
+    .loquedicen {
+        text-align: center;
+    }
+    
+    
+    
+    .avatarContainer{
+        width: 100%;
+        display:flex;   
+        flex-direction: column; 
+    }
+    
+    
+    .espacionaranja {
+    width: 100%;
+    height: 224px;
+    left: 0px;
+    top: 0px;
+    background-color: #F3613C;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-}
-.botonavatar {
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px;
+    }
+    
+    .textocajanaranja {
+        width: 438px;
+        height: 96px;
+        left: 0px;
+        top: 0px;
+        margin-left: 165px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 48px;
+        align-items: center;
+        letter-spacing: -0.005em;
+        color: #FFFFFF;
+    
+    
+    
+    }
+    
+    .botonblanco {
+        width: 134px;
+        height: 44px;
+        left: 976px;
+        top: 26px;
+        margin-right: 10%;
+    
+        background: #FFFFFF;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        border: none;
+        color: orangered;
+    }
+    
+    .piedepagina {
+        width: 100%;
+        height: 247px;
+        left: 0px;
+    
+        background: #1E1E26;
+        color: white;
+        height: 100%;
+    }
+    
+    
+    .lista1 {
+        display: inline-block;
+        padding: 20px;
+        width: 20%;
+        list-style: none;
+    }
+    .lista2 {
+        display: inline-block;
+        padding:20px;
+        width: 20%;
+        list-style: none;
+    }
+    .logoyredes {
+        display: inline-block;
+        padding:20px;
+        width: 20%;
+        align-items: center;
+    
+    }
+    
+    .ultimo {
+        background-color: white;
+        color: black;
+    
+    }
+    
+    
+    .botonGO {
+    
+        background: #F3603B;
+        border-radius: 50px;
+        margin: 30px 0px 50px 10px;
+        color: white;
+        border: solid 1px;
+    
+        
+    }
+    .piedepagina {
+        padding: 1%;
+        align-items: center;
+        text-align: center;
+    }
+    .botonavatar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    
+        width: 134px;
+        height: 44px;
+        margin: -20px -50px; 
+        position:relative;
+        top:50%; 
+        left:50%;
+        border-radius: 30px;
+        border: none;
+    
+        background: #F3603B;
+        box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
+        border-radius: 50px;
+        border:none;
+        color: white;
+    }
+    
+    .lista {
+        list-style-type: none;
+        line-height: 2;
+    }
 
-    width: 134px;
-    height: 44px;
-    margin: -20px -50px; 
-    position:relative;
-    top:50%; 
-    left:50%;
-    border-radius: 30px;
-    border: none;
-
-background: #F3603B;
-box-shadow: 0px 4px 8px rgba(243, 96, 59, 0.5);
-border-radius: 50px;
-border:none;
-color: white;
-}
-
-.lista {
-    list-style-type: none;
-    line-height: 2;
-}
-
-
-
-
+/*#endregion RegionName*/
