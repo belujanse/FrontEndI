@@ -421,23 +421,14 @@ color: white;
     top: 0px;
     background-color: #F3613C;
     display:flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     }
     
     .textocajanaranja {
-        width: 438px;
-        height: 96px;
-        left: 0px;
-        top: 0px;
-        margin-left: 165px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 40px;
-        line-height: 48px;
+        margin-left: 62px;
+        font-size: 25px;
+        line-height: 25px;
         align-items: center;
-        letter-spacing: -0.005em;
-        color: #FFFFFF;
     
     
     
