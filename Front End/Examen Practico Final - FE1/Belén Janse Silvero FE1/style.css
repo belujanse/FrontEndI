@@ -478,8 +478,8 @@ color: white;
     }
     
     .logoFooter{
-        position: fixed;
-        bottom: 0;
+        position: relative;
+        top: 280px;
         width: 339px;
     }
 
@@ -487,6 +487,11 @@ color: white;
         background-color: white;
         color: black;
     
+    }
+
+    .botonfinal{
+        position: relative;
+        bottom: 250px;
     }
     
     
