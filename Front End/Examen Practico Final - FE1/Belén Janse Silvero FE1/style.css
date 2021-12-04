@@ -116,7 +116,7 @@ dt {
 }
 
 .botonnumerado {
-    position: static;
+    position: relative;
     width: 69px;
     height: 43px;
     right: 484px;
@@ -125,6 +125,7 @@ dt {
     border-radius: 30px;
     border: none;
     color:white;
+    right:100px
 }
 
 .loquedicen {
@@ -214,12 +215,22 @@ align-items: center;
     width: 20%;
     list-style: none;
 }
-.logoyredes {
-    display: inline-block;
-    padding:20px;
-    width: 20%;
-    align-items: center;
+.logoFooter {
+    position:relative;
+    right: 400px;
+    top: 50px;
+}
 
+.redessociales {
+    position: relative;
+    right: 400px;
+    top: 150px;
+}
+
+.botonfinal {
+    position: relative;
+    left: 400px;
+    bottom: 100px;
 }
 
 .ultimo {
@@ -232,7 +243,7 @@ align-items: center;
 .botonGO {
 
     background: #F3603B;
-    border-radius: 50px;
+    border-radius: 20px;
     margin: 30px 0px 50px 10px;
     color: white;
     border: solid 1px;
@@ -458,16 +469,19 @@ color: white;
     
     
     .lista1 {
-        display: inline-block;
         padding: 20px;
         width: 20%;
         list-style: none;
+        position: relative;
+        right: 55px;
     }
     .lista2 {
-        display: inline-block;
         padding:20px;
         width: 20%;
         list-style: none;
+        position: relative;
+        bottom: 30px;
+        right: 3px;
     }
     .logoyredes {
         display: inline-block;
@@ -536,6 +550,12 @@ color: white;
     .lista {
         list-style-type: none;
         line-height: 2;
+    }
+
+    .redessociales {
+        position: relative;
+        top: 207px;
+        word-spacing: 1.5em;
     }
 }
 /*#endregion RegionName*/
